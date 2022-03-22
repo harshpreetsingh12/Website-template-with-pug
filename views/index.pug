@@ -1,0 +1,60 @@
+//index.png
+doctype html 
+html 
+   head 
+    title React Dance Academy
+    style 
+       include ../static/style.css
+body 
+ 
+    nav#navbar
+        ul 
+            div#logo
+                img(src="../static/logo.jpg")
+                | HDA
+            div#nav-item    
+            li #[a(href= "/") Home ]  
+            li #[a(href= "/") About]  
+            li #[a(href= "/") Contact]   
+            li #[a(href= "/") Service]  
+
+Section#introSection
+    div Welcome To React Dance Academy 
+    div.small Eat Sleep Dance Repeat
+Section#missionSection
+    h3 Our Mission
+    div.card
+         h3 Dance perfection
+         div.card-box
+            div.card-img
+                img(src="/static/img/1i.jpg")
+            div.card-content
+                p Every type of dance is peacefull
+    div.card
+         h3 Dance the way you like
+         div.card-box
+            div.card-img
+                img(src="/static/img/2i.jpg")
+            div.card-content
+                p This is the best dance academy with unique style
+    div.card
+         h3 Expert teaching
+         div.card-box
+            div.card-img
+                img(src="/static/img/3i.png")
+            div.card-content
+                p Experts are here to guide you for the best
+Section#sponserSection
+    h3 Our Sponsors
+    div#sponsors
+        img(src="/static/img/d.png", alt="Sponsors" class="spImage")
+        img(src="/static/img/hu.png", alt="Sponsors" class="spImage")
+        img(src="/static/img/mic.png", alt="Sponsors" class="spImage")
+        img(src="/static/img/up.png", alt="Sponsors" class="spImage")
+        img(src="/static/img/coc.png", alt="Sponsors" class="spImage")
+  
+footer#intro 
+    | Copyright &copy 2022 ReactDanceAcademy.com | All Rights reserved
+
+script 
+include ../static/index.js
